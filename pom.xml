@@ -34,7 +34,7 @@
 
   <properties>
     <security.version>0.8.0.0</security.version>
-    <elasticsearch.version>6.6.1</elasticsearch.version>
+    <elasticsearch.version>${env.ES_VERSION}</elasticsearch.version>
 
     <!-- deps -->
     <log4j.version>2.11.1</log4j.version>
